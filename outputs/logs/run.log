@@ -1,0 +1,80 @@
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 0.7696, 'precision': 0.7792, 'recall': 0.7696, 'f1': 0.7573, 'latency_seconds': 3.9945}
+Running model: random_forest
+Completed: {'model': 'random_forest', 'accuracy': 0.9464, 'precision': 0.9482, 'recall': 0.9464, 'f1': 0.9462, 'latency_seconds': 3.6062}
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: dummy.csv
+Total samples: 2
+Models selected: ['logistic_regression', 'random_forest']
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'latency_seconds': 0.1234}
+Running model: random_forest
+Completed: {'model': 'random_forest', 'accuracy': 1.0, 'precision': 1.0, 'recall': 1.0, 'f1': 1.0, 'latency_seconds': 0.1234}
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Execution mode: Docker
+Running model: logistic_regression
+Error while evaluating 'logistic_regression': Docker container 'logistic_regression' failed.
+Error: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Running model: random_forest
+Error while evaluating 'random_forest': Docker container 'random_forest' failed.
+Error: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Execution mode: Local
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 0.7696, 'precision': 0.7792, 'recall': 0.7696, 'f1': 0.7573, 'latency_seconds': 1.613}
+Running model: random_forest
+Completed: {'model': 'random_forest', 'accuracy': 0.9464, 'precision': 0.9482, 'recall': 0.9464, 'f1': 0.9462, 'latency_seconds': 1.9515}
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data\processed\processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression']
+Execution mode: Local
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 0.7696, 'precision': 0.7792, 'recall': 0.7696, 'f1': 0.7573, 'latency_seconds': 2.0629}
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Execution mode: Docker
+Running model: logistic_regression
+Error while evaluating 'logistic_regression': Docker container 'logistic_regression' failed.
+Error: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Running model: random_forest
+Error while evaluating 'random_forest': Docker container 'random_forest' failed.
+Error: failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Execution mode: Local
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 0.7696, 'precision': 0.7792, 'recall': 0.7696, 'f1': 0.7573, 'latency_seconds': 1.4305}
+Running model: random_forest
+Completed: {'model': 'random_forest', 'accuracy': 0.9464, 'precision': 0.9482, 'recall': 0.9464, 'f1': 0.9462, 'latency_seconds': 1.6285}
+=== Evaluation Finished ===
+=== Evaluation Started ===
+Dataset: data/processed/processed_resumes.csv
+Total samples: 2483
+Models selected: ['logistic_regression', 'random_forest']
+Execution mode: Docker
+Running model: logistic_regression
+Completed: {'model': 'logistic_regression', 'accuracy': 0.7696, 'precision': 0.7792, 'recall': 0.7696, 'f1': 0.7573, 'latency_seconds': 3.7446}
+Running model: random_forest
+Completed: {'model': 'random_forest', 'accuracy': 0.9464, 'precision': 0.9482, 'recall': 0.9464, 'f1': 0.9462, 'latency_seconds': 3.6555}
+=== Evaluation Finished ===

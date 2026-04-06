@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  logistic_regression:
+    build:
+      context: ../models/logistic_regression
+    image: logistic_regression
+
+  random_forest:
+    build:
+      context: ../models/random_forest
+    image: random_forest

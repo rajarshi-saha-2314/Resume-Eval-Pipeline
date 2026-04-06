@@ -1,0 +1,3 @@
+model,accuracy,precision,recall,f1,latency_seconds
+random_forest,0.9464,0.9482,0.9464,0.9462,3.6555
+logistic_regression,0.7696,0.7792,0.7696,0.7573,3.7446

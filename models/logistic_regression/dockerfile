@@ -1,0 +1,10 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+
+COPY predict.py .
+COPY model.pkl .
+
+RUN pip install --no-cache-dir scikit-learn scipy numpy
+
+CMD ["python", "predict.py"]

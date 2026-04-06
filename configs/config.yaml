@@ -1,0 +1,25 @@
+dataset:
+  path: data/processed/processed_resumes.csv
+
+models:
+  - name: logistic_regression
+    docker_image: logistic_regression
+  - name: random_forest
+    docker_image: random_forest
+
+evaluation:
+  metrics:
+    - accuracy
+    - precision
+    - recall
+    - f1
+  save_results_path: outputs/results.json
+  save_leaderboard_path: outputs/leaderboard.csv
+
+runtime:
+  batch_size: 32
+  timeout_seconds: 60
+
+logging:
+  log_file: outputs/logs/run.log
+  level: INFO
